@@ -91,7 +91,9 @@ a:hover{
     vertical-align: initial;
 } 
 
-
+.logo{
+    width:20%;
+}
 
 section{
     width:100%;
@@ -384,6 +386,10 @@ h5{
     }
     h1{
         font-size:2rem;
+    }
+
+    .logo{
+        width:10%;
     }
 }
 
