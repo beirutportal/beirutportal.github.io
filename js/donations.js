@@ -131,9 +131,62 @@ export const list = [
         donateurl: "https://beitelbaraka.net/donation/pay/",
         weburl: "https://www.beitelbaraka.org/",
         imgsrc: "https://www.beitelbaraka.org/wp-content/uploads/2020/06/1-04.png"
+    },
+    {
+        id: 13,
+        name: "Act For Lebanon USA",
+        excerpt: `Act for Lebanon-USA (ACT) is a 501(c)(3) not-for-profit organization established in the US with a mission to support various causes in Lebanon including children, education, health and mental health, human rights, palliative care, women empowerment, environment, as well as cultural and athletic programs...`,
+        donateurl: "https://www.actforlebanonusa.org/",
+        weburl: "https://www.actforlebanonusa.org/",
+        imgsrc: "https://www.actforlebanonusa.org/wp-content/uploads/2019/12/logo.png"
     }
+    ,
+    {
+        id: 14,
+        name: "Lebanon Needs",
+        excerpt: `Lebanon Needs is a non-profit organization founded in 2019 dedicated to creating and delivering sustainable healthcare solutions for impoverished and underserved Lebanese...`,
+        donateurl: "https://www.lebanonneeds.org/donate",
+        weburl: "https://www.lebanonneeds.org/what",
+        imgsrc: "assets/imgs/donations/ly.png"
+    },
+    {
+        id: 15,
+        name: "nusaned",
+        excerpt: `Nusaned is a humanitarian, community-based and volunteer organization.  We believe that the power to create change comes from working collaboratively.
+
+        Nusaned does not engage in any political activity, and remains at equal distance from all religions...`,
+        donateurl: "https://www.nusaned.org/en/donate",
+        weburl: "https://www.nusaned.org/en",
+        imgsrc: "https://www.nusaned.org/assets/img/logo.png"
+    },
+    {
+        id: 16,
+        name: "Chance Association",
+        excerpt: `    (CHildren AgaiNst CancEr) is a Lebanese Association whose mission is to help Lebanese children with Cancer or Blood Disorders receive the best chance for cure and acceptation of their disease...`,
+        donateurl: "https://chanceassociation.org/donate",
+        weburl: "https://chanceassociation.org/home",
+        imgsrc: "https://bmbc.cloud/storage/companies/logos/web/83544_2019_9_10.png"
+    },
+    {
+        id: 17,
+        name: "bassma",
+        excerpt: `BASSMA believes that Healthy Families are the pillars of a Healthy Society.
 
 
+        Every person has the right to live in dignity and deserves a chance to achieve her potential through access to Food, Water, Clothing, Education, Employment, HealthCare, Housing, Safe and Secure Environment, and Decent Living Standards...`,
+        donateurl: "https://www.bassma.org/DonateNow/donateonline/",
+        weburl: "https://www.bassma.org/",
+        imgsrc: "https://bassma.org/Content/images/ilogo.png"
+    }
+    ,
+    {
+        id: 18,
+        name: "Hopital Libanais Geitaoui",
+        excerpt: `The Lebanese Hospital Geitaoui - UMC, one of the first hospitals in Lebanon, was founded in 1927 by father Joseph Selwan Geitaoui. The hospital administration was entrusted by the founder to the Congregation of the Maronite Sisters of the Holy Family established by Patriarch Elias El Hoyek in 1895...`,
+        donateurl: "https://www.hopital-libanais.com/otherdefinitions/donate",
+        weburl: "https://www.hopital-libanais.com/",
+        imgsrc: "https://www.hopital-libanais.com/img/logo.png"
+    }
 
 
 

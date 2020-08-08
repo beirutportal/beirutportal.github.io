@@ -33,7 +33,7 @@ $(document).ready(function(){
     for(var i = 0; i<Donations.list.length; i++){
 
         //Card Builder
-        let $card = $("<div class='card'></div>");
+        let $card = $("<div class='card' id='"+ Donations.list[i].id +"'></div>");
         let $img = $("<img src='"+ Donations.list[i].imgsrc + "' class='card-img-top'>");
         let $cardbody = $("<div class='card-body'></div>");
         let $cardtitle = $("<h5 class='card-title'>"+ Donations.list[i].name +"</h5>");
@@ -62,7 +62,7 @@ $(document).ready(function(){
         //Simplified List Builder
         let $elmt = $("<div class='elmt'></div>");
         let $p = $("<p></p>");
-        let $elmtlink = $("<a href='" + Donations.list[i].donateurl + "' target='_blank'> " + Donations.list[i].name + "<i class='fa fa-external-link' aria-hidden='true'></i></a>")
+        let $elmtlink = $("<a href='" + Donations.list[i].donateurl + "' target='_blank'> " + Donations.list[i].name + " <i class='fa fa-external-link' aria-hidden='true'></i></a>")
 
         $('.elmts-collection').append($elmt);
         $elmt.append($p);
