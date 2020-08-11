@@ -76,15 +76,13 @@ $(document).ready(function(){
     $(".categories-list ul li").click(function(){
         let $current = $(this).attr('id');
         let $found = Categories.list.find(x => x.id == $current);
-        // console.log($found);
         let $id =  $("#" + $found.name);
-        // console.log($id);
 
         $("body,html").animate(
             {
               scrollTop: $id.offset().top - 90
             },
-            800 //speed
+            800
           );
 
 
@@ -103,7 +101,7 @@ $(document).ready(function(){
 
         console.log("done donations");
         CardBuilder(volunteerslist, volunteerstags, "volunteers");
-        // TagsBuilder(volunteerstags, "volunteers");
+
 
 
 
@@ -171,7 +169,7 @@ $(document).ready(function(){
             $( ".c-" + target ).remove();
         }
 
-            //Tags Builder
+         //Tags Builder
         function TagsBuilder(obj, target){
             let $labelfirst = $("<label class='btn btn-primary radio-toggle-btn active'> </label>");
             let $inputfirst = $("<input type='radio' name='options' id='optionall-" +target  +"' checked> <span>All</span>");
@@ -230,7 +228,7 @@ $(document).ready(function(){
                 {
                   scrollTop: 0
                 },
-                800 //speed
+                800
               );
         });
 
@@ -269,58 +267,3 @@ $(document).ready(function(){
 
 
 });
-
-
-
-    //Donations List Builder
-    // for(var i = 0; i<Donations.list.length; i++){
-
-
-    //     let $card = $("<div class='card' id='"+ Donations.list[i].id +"'></div>");
-    //     for(var j=0; j<Donations.list[i].tags.length; j++){
-            
-    //         let $new = Tags.list.find(x => x.id === Donations.list[i].tags[j]);
-    //         let $tags = $("<div class='donation-tags' id='" + $new.id + "'>" + $new.name + "</div>");
-    //         $card.append($tags);
-    //     }
-    //     let $img = $("<img src='"+ Donations.list[i].imgsrc + "' class='card-img-top'>");
-    //     let $cardbody = $("<div class='card-body'></div>");
-    //     let $cardtitle = $("<h5 class='card-title'>"+ Donations.list[i].name +"</h5>");
-    //     let $cardtext = $("<p class='card-text'>" + Donations.list[i].excerpt + "</p>");
-
-    //     let $activeurl = $("<a href=" + Donations.list[i].activeurl + " target='_blank'></a>");
-    //     let $btndonate = $("<button type='button' class='btn btn-success green'>DONATE NOW <i class='fa fa-external-link' aria-hidden='true'></i></button>");
-
-    //     let $weburl = $("<a href=" + Donations.list[i].weburl + " target='_blank'></a>");
-    //     let $btnurl = $("<button type='button' class='btn btn-outline-secondary'>Learn more <i class='fa fa-external-link' aria-hidden='true'></i></button>");
-
-    //     $('.card-donations').append($card);
-    //     $card.append($img);
-	// 	$card.append($cardbody);
-    //     $cardbody.append($cardtitle);
-    //     $cardbody.append($cardtext);
-        
-    //     $cardbody.append($activeurl);
-    //     $activeurl.append($btndonate);
-
-    //     $cardbody.append($weburl);
-    //     $weburl.append($btnurl);
-
-
-
-
-        
-
-    // }
-
-        //Simplified List Builder
-        // let $elmt = $("<div class='elmt'></div>");
-        // let $p = $("<p></p>");
-        // let $elmtlink = $("<a href='" + Donations.list[i].donateurl + "' target='_blank'> " + Donations.list[i].name + " <i class='fa fa-external-link' aria-hidden='true'></i></a>")
-
-        // $('.elmts-collection').append($elmt);
-        // $elmt.append($p);
-        // $p.append($elmtlink);
-
-
-        //Volunteers List Builder
