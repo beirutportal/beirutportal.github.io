@@ -23,7 +23,7 @@ export const list = [
     {
         id: 0,
         name: "Lebanese Red Cross",
-        excerpt: "The Lebanese Red Cross (LRC) is a national society that was established on July 9, 1945 as an independent National Society. In 1946, it was recognized by the State as a public nonprofit organization and as an auxiliary team to the medical personnel of the Lebanese Army...",
+        excerpt: "The Lebanese Red Cross (LRC) is a national society that was established on July 9, 1945 as an independent National Society. In 1946, it was recognized by the State as a public...",
         activeurl: "https://www.supportlrc.app/",
         weburl: "http://www.redcross.org.lb/index.aspx?pageid=907",
         imgsrc: "assets/imgs/donations/lrc.gif",
@@ -56,7 +56,7 @@ export const list = [
     {
         id: 1,
         name: "Donner Sans Compter",
-        excerpt: "DSC is a non-governmental, non-profit organization founded onthe principles of empathy,compassion, humility, and sacrifice. We are not politically aligned. We are notreligiously affiliated. Ouronly commitment is to humanity. DSC links patients in need of blood donationsand those who are willing todonate...",
+        excerpt: "DSC is a non-governmental, non-profit organization founded onthe principles of empathy,compassion, humility, and sacrifice. We are not politically aligned. We are notreligiously affiliated. Ouronly commitment is to...",
         activeurl: "https://www.givingloop.org/dsc",
         weburl: "https://dsclebanon.org/",
         imgsrc: "assets/imgs/donations/dsc.jpg",
@@ -91,10 +91,7 @@ export const list = [
         name: "arcenciel",
         excerpt: `Adhering to the principles of sustainable development, 
         arcenciel emphasizes the social and economic integration of marginalized people and communities back into society. 
-        It believes that every person, no matter the gravity of their handicap, 
-        is capable of overcoming their disability and contributing to the communities in which they live. 
-        arcenciel supports the diversity of society, 
-        and encourages the sustainability and conservation of natural resources in all aspects of its work...`,
+        It believes that every...`,
         activeurl: "https://www.arcenciel.org/donate/",
         weburl: "https://www.arcenciel.org/en/",
         imgsrc: "assets/imgs/donations/aec.jpg",
@@ -127,9 +124,7 @@ export const list = [
         id: 3,
         name: "Impact Lebanon",
         excerpt: `Impact Lebanon is a non-profit organisation that brings the community together to pursue initiatives that deliver impact for Lebanon. 
-        Our process is to encourage the brainstorming of ideas; 
-        promote the sharing of knowledge, resources and expertise; 
-        and build strong teams to turn an idea into a successful initiative...`,
+        Our process is to...`,
         activeurl: "https://www.justgiving.com/crowdfunding/lebanon-relief?utm_term=PYp7gXzyD",
         weburl: "https://www.impactlebanon.org/",
         imgsrc: "assets/imgs/donations/impactlebanon.jpg",
@@ -162,10 +157,7 @@ export const list = [
         id: 4,
         name: "Saint George Hospital",
         excerpt: `Saint George Hospital University Medical Center is a nonprofit academic medical center, 
-        owned by the Orthodox Archdiocese of Beirut and is academically affiliated to the University of Balamand. 
-        It is committed to treat all patients with dignity, respect and compassion regardless of their religion, nationality, 
-        socioeconomic status and race. 
-        It provides quality healthcare services to the sick and indigent at the lowest possible cost...`,
+        owned by the Orthodox Archdiocese...`,
         activeurl: "https://www.stgeorgehospital.org/stgeorge-donation",
         weburl: "https://www.stgeorgehospital.org/",
         imgsrc: "assets/imgs/donations/stgeorgehospital.png",
@@ -203,18 +195,19 @@ export const list = [
         activeurl: "http://lebanonoftomorrow.org/product/donate-for-beirut/",
         weburl: "https://lebanonoftomorrow.org/",
         imgsrc: "assets/imgs/donations/LOT.png",
-        tags: [1],
+        tags: [1,9],
         social:[
-            // {
-            //     id:"instagram",
-            //     link:"",
-            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
-            // },
-            // {
-            //     id:"facebook",
-            //     link:"",
-            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
-            // },
+            {
+                id:"instagram",
+                link:"http://www.instagram.com/lebanonoftomorrow",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            },
+            {
+                id:"facebook",
+                link:"https://www.facebook.com/LebanonOfTomorrow/",
+                icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            }
+            //,
             // {
             //     id:"twitter",
             //     link:"",
@@ -232,7 +225,7 @@ export const list = [
         id: 6,
         name: "Sesobel",
         excerpt: `Since 1976, SESOBEL has taken all possible steps to implement a coherent and monitored service of assisting children with disability and to accompany their families as partners in facing life’s challenges.
-        SESOBEL has worked equally hard with all elements of the society to recognize the value, dignity, and respect for children with disability...`,
+        SESOBEL has worked...`,
         activeurl: "https://www.sesobel.org/en/sengager/faireundon",
         weburl: "https://www.sesobel.org/",
         imgsrc: "assets/imgs/donations/sesobel.png",
@@ -298,9 +291,7 @@ export const list = [
         id: 8,
         name: "Caritas",
         excerpt: `Caritas Lebanon, the common official socio-pastoral arm of the local Catholic Church in service of the poor and the promotion of love, 
-        charity and justice, provides economic development, livelihoods, health and social care, education, migration services, 
-        emergency and crisis intervention, human and humanitarian relief and aid, environmental stewardship, 
-        as well as advocacy and protection for all individuals and groups of people in need...`,
+        charity and justice...`,
         activeurl: "http://www.caritas.org.lb/get_involved/donate",
         weburl: "http://www.caritas.org.lb/",
         imgsrc: "assets/imgs/donations/caritas.png",
@@ -333,9 +324,7 @@ export const list = [
         id: 9,
         name: "Offrejoie",
         excerpt: `Offrejoie was born in the midst of a raging civil war in Lebanon in 1985. 
-        A group of young Red Cross volunteers worked together to help the injured. 
-        Alleviating human suffering transcended any differences between them. They committed to heal their torn country. 
-        They started with children’s camps during the conflict...`,
+        A group of young Red Cross volunteers...`,
         activeurl: "https://offrejoie.org/donate/",
         weburl: "https://offrejoie.org/",
         imgsrc: "assets/imgs/donations/offrejoie.png",
@@ -402,8 +391,7 @@ export const list = [
         name: "Baytna Baytak",
         excerpt: `In the wake of the tragic Beirut blast, 
         Baytna Baytak has shifted its priority to relocating displaced individuals who have lost their homes to the blast. 
-        More than 300,000 Lebanese citizens need our assistance. 
-        Please help us help them...`,
+        More than 300,000 Lebanese...`,
         activeurl: "https://www.justgiving.com/crowdfunding/impact-lebanon?utm_term=dXEJkepP7",
         weburl: "https://www.baytnabaytak.com/home",
         imgsrc: "assets/imgs/donations/baytnabaytak.png",
@@ -467,7 +455,7 @@ export const list = [
     {
         id: 13,
         name: "Act For Lebanon USA",
-        excerpt: `Act for Lebanon-USA (ACT) is a 501(c)(3) not-for-profit organization established in the US with a mission to support various causes in Lebanon including children, education, health and mental health, human rights, palliative care, women empowerment, environment, as well as cultural and athletic programs...`,
+        excerpt: `Act for Lebanon-USA (ACT) is a 501(c)(3) not-for-profit organization established in the US with a mission to support various causes in Lebanon including children, education, health and mental health, human rights, palliative...`,
         activeurl: "https://www.actforlebanonusa.org/",
         weburl: "https://www.actforlebanonusa.org/",
         imgsrc: "https://www.actforlebanonusa.org/wp-content/uploads/2019/12/logo.png",
@@ -500,7 +488,7 @@ export const list = [
     {
         id: 14,
         name: "Lebanon Needs",
-        excerpt: `Lebanon Needs is a non-profit organization founded in 2019 dedicated to creating and delivering sustainable healthcare solutions for impoverished and underserved Lebanese...`,
+        excerpt: `Lebanon Needs is a non-profit organization founded in 2019 dedicated to creating and delivering...`,
         activeurl: "https://www.lebanonneeds.org/donate",
         weburl: "https://www.lebanonneeds.org/what",
         imgsrc: "assets/imgs/donations/ly.png",
@@ -537,7 +525,7 @@ export const list = [
         Nusaned does not engage in any political activity, and remains at equal distance from all religions...`,
         activeurl: "https://www.nusaned.org/en/donate",
         weburl: "https://www.nusaned.org/en",
-        imgsrc: "https://www.nusaned.org/assets/img/logo.png",
+        imgsrc: "https://scontent.fbey14-1.fna.fbcdn.net/v/t1.0-9/90253801_139649317590101_1485201623692083200_o.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=8LX0uP3DOowAX8yjFmE&_nc_ht=scontent.fbey14-1.fna&oh=acf4a922f9771b6d52e7efc061bdf18a&oe=5F58680B",
         tags: [1],
         social:[
             // {
@@ -699,7 +687,7 @@ export const list = [
     },
     {
         id: 21,
-        name: "Dafa Campaign",
+        name: "Dafa Campaign | حملة دفى",
         excerpt: `Dafa is a non-profit organization we supply families in need with essential food,we also have been growing crops for healthy fruits and vegetables.`,
         activeurl: "https://www.gofundme.com/f/do-more-for-lebanon?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link-tip",
         weburl: "https://www.instagram.com/dafacampaign/",
@@ -710,9 +698,97 @@ export const list = [
                 id:"instagram",
                 link:"https://www.instagram.com/dafacampaign/",
                 icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
-            }
+            },
+            {
+                    id:"facebook",
+                    link:"https://www.facebook.com/DafaCampaignLebanon/",
+                    icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+                }
+
         ],
         number:["03837666", "81042422", "76664844"]
+    },
+    {
+        id: 22,
+        name: "Embrace Lebanon",
+        excerpt: `Embrace is a non-profit organization (NGO) which works to raise awareness around mental health in Lebanon. Embrace launched...`,
+        activeurl: "https://embracelebanon.org/donate-to-embrace/",
+        weburl: "https://embracelebanon.org/",
+        imgsrc: "https://instagram.fbey14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/83197334_2502986096696167_2518006542435876864_n.jpg?_nc_ht=instagram.fbey14-1.fna.fbcdn.net&_nc_ohc=SlRmBLJB_mUAX-fkZ4t&oh=d7de637b1ec4a1bf384c352b87ae3cc6&oe=5F5C2AC7",
+        tags: [1],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/embrace_lebanon/",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            },
+            {
+                    id:"facebook",
+                    link:"https://www.facebook.com/embracelebanon",
+                    icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+                },
+                {
+                    id:"twitter",
+                    link:"https://twitter.com/Embrace_lebanon",
+                    icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+                }
+
+        ],
+        number:[""]
+    },
+    {
+        id: 23,
+        name: "Tyeb El Eid | تياب العيد",
+        excerpt: `أول متجر للتسوق المجاني بلا مقابل/ تبرع بملابسك القديمة للمحتاجين والعائلات المستورة`,
+        activeurl: "https://www.launchgood.com/campaign/coalition_for_lebanon_emergency#!/",
+        weburl: "https://www.instagram.com/tyebeleid/",
+        imgsrc: "https://instagram.fbey14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/50740930_329310194356165_2626363881504636928_n.jpg?_nc_ht=instagram.fbey14-1.fna.fbcdn.net&_nc_ohc=G7LhoV5T-W8AX8FMN3M&oh=4f002259b086f2881b42f7ec820188ec&oe=5F5DA6BF",
+        tags: [1,2],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/tyebeleid/",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            }
+
+        ],
+        number:[""]
+    },
+    {
+        id: 24,
+        name: "Kelna 3ayleh | كلنا عيلة",
+        excerpt: `In an effort to support the less fortunate during the Coronavirus outbreak in Lebanon, as we already face the current economic difficulties aggravated by the epidemic...`,
+        activeurl: "https://www.isupportlebanon.com/",
+        weburl: "http://www.kelna3ayleh.org/",
+        imgsrc: "http://www.kelna3ayleh.org/img/Kelna3aylehLogo.png",
+        tags: [1,9],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/kelna3ayleh/?igshid=asow451d1gap",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            }
+
+        ],
+        number:[""]
+    },
+    {
+        id: 25,
+        name: "Min Beib La Beib",
+        excerpt: `From your door to another. Any extra item at home could bring happiness to another home.`,
+        activeurl: "https://fundly.com/min-beib-la-beib",
+        weburl: "https://www.instagram.com/minbeiblabeib/?hl=en",
+        imgsrc: "https://instagram.fbey14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/71109787_2723030701302977_4317924905514434560_n.jpg?_nc_ht=instagram.fbey14-1.fna.fbcdn.net&_nc_ohc=ZNfIusf91-0AX-CdtKa&oh=b979e88b4723a0e86e33ecbef3e75d61&oe=5F5AF56B",
+        tags: [1,2,9],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/minbeiblabeib/?hl=en",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            }
+
+        ],
+        number:[""]
     }
 
 
