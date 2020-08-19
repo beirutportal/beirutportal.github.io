@@ -49,17 +49,15 @@ $(document).ready(function(){
 
 
     $(".bp-nav-menu").click(function(){
-        $(".bp-nav-menu-line-one").toggleClass('hide');
-        $(".bp-nav-menu-line-three").toggleClass('hide');
-        $(".menu-container").toggleClass('show-menu');
-        $(".main-body").toggleClass('move-body');
+        ToggleMenu();
     });
     
     $(".main-body").click(function(){
-        $(".bp-nav-menu-line-one").removeClass('hide');
-        $(".bp-nav-menu-line-three").removeClass('hide');
-        $(".menu-container").removeClass('show-menu');
-        $(".main-body").removeClass('move-body');
+
+        if( $(".menu-container").hasClass('show-menu') ){
+            ToggleMenu();
+        }
+        
     });
 
 
@@ -76,6 +74,7 @@ $(document).ready(function(){
     $(".categories-list ul li").click(function(){
         let $current = $(this).attr('id');
         let $found = Categories.list.find(x => x.id == $current);
+
         // console.log($found);
         let $id =  $("#" + $found.name);
         // console.log($id);
@@ -92,7 +91,12 @@ $(document).ready(function(){
 
 
 
-    
+    function ToggleMenu(){
+        $(".bp-nav-menu-line-one").toggleClass('rotate-down');
+        $(".bp-nav-menu-line-three").toggleClass('rotate-up');
+        $(".menu-container").toggleClass('show-menu');
+        $(".main-body").toggleClass('move-body');
+    }
 
 
 
@@ -101,7 +105,8 @@ $(document).ready(function(){
         CardBuilder(donationslist, donationstags, "donations");
         TagsBuilder(donationstags, "donations");
 
-        console.log("done donations");
+
+    
         CardBuilder(volunteerslist, volunteerstags, "volunteers");
         // TagsBuilder(volunteerstags, "volunteers");
 
@@ -179,8 +184,6 @@ $(document).ready(function(){
             $labelfirst.append($inputfirst);
         
             for(var i = 0; i<obj.length; i++){
-        
-                console.log(obj[i].id);
         
                 let $label = $("<label class='btn btn-primary radio-toggle-btn'> </label>");
                 let $input = $("<input type='radio' name='options' id='" + obj[i].id + "' class='radio-" + target + "'> <span>" + obj[i].name +"</span> ");
