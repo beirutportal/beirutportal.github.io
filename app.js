@@ -48,7 +48,7 @@ $(document).ready(function(){
     });
 
 
-    $(".bp-nav-menu").click(function(){
+    $(".bp-nav-menu-container").click(function(){
         ToggleMenu();
     });
     
