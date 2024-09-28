@@ -15,14 +15,15 @@
     --light:#fff;
     --dark:#2E4315;
 
-    --light-background:#DFEAC9;
-    --light-color:#496725;
+
     --glass:rgba(46, 67, 21, 0.45);
 
     --main-title: var(--accent);
     --action-button-background:var(--dark);
     --action-button-color:var(--light);
     --logo:var(--accent);
+    --greeting-bg:#DFEAC9;
+    --greeting-color:var(--accent);
 }
 
 .night-time{
@@ -37,6 +38,8 @@
     --main-title: var(--light);
     --action-button-background:var(--dark);
     --action-button-color:var(--light);
+    --greeting-bg:var(--dark);
+    --greeting-color:var(--light);
 }
 
 
@@ -76,9 +79,9 @@ header{
 .greeting{
     padding:5px 20px;
     border-radius: 100px;
-    background:var(--light-background);
+    background:var(--greeting-bg);
     font-size:12px;
-    color:var(--light-color);
+    color:var(--greeting-color);
     width:fit-content;
 }
 
